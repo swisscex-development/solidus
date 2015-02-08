@@ -1,7 +1,10 @@
 src/*.exe
 src/litecoin
+src/solidus
 src/litecoind
+src/solidusd
 src/test_litecoin
+src/test_solidus
 .*.swp
 *.*~*
 *.bak
@@ -16,10 +19,13 @@ src/test_litecoin
 Makefile
 litecoin-qt
 Litecoin-Qt.app
+solidus-qt
+Solidus-Qt.app
 
 # Unit-tests
 Makefile.test
 litecoin-qt_test
+solidus-qt_test
 
 # Resources cpp
 qrc_*.cpp
