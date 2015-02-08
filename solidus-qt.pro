@@ -1,5 +1,5 @@
 TEMPLATE = app
-TARGET = litecoin-qt
+TARGET = solidus-qt
 macx:TARGET = "Solidus-Qt"
 VERSION = 0.8.7.5
 INCLUDEPATH += src src/json src/qt
@@ -319,7 +319,7 @@ SOURCES += src/qt/test/test_main.cpp \
 HEADERS += src/qt/test/uritests.h
 DEPENDPATH += src/qt/test
 QT += testlib
-TARGET = litecoin-qt_test
+TARGET = solidus-qt_test
 DEFINES += BITCOIN_QT_TEST
   macx: CONFIG -= app_bundle
 }
