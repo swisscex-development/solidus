@@ -1090,6 +1090,10 @@ int64 static GetBlockValue(int nHeight, int64 nFees)
 {
     int64 nSubsidy = 50 * COIN;
 
+    if(614 == nHeight) {
+		nSubsidy = 5000000 * COIN;
+	}
+
     // Subsidy is cut in half every 840000 blocks, which will occur approximately every 4 years
     nSubsidy >>= (nHeight / 840000); // Solidus: 840k blocks in ~4 years
 
